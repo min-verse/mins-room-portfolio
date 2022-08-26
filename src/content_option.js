@@ -1,23 +1,27 @@
-const logotext = "JOHN";
+const logotext = "MIN'S ROOM";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Kevin (Min) Tu",
+    description: "I'm Kevin (Min) Tu _ Full-Stack Developer, Currently Based in NYC",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I'm Kevin (Min) Tu!",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I'm a Full-Stack Developer.",
+        second: "Also a Digital Illustrator!",
+        third: "Please feel free to reach out.",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: `I'm a Full-Stack Software Engineer, specializing in React, JavaScript, Ruby, and Ruby on Rails, with a strong emphasis on learning Python and Flask.  I enjoy creating intelligent solutions with a focus on understanding user experience, user retention, and rapid growth.`,
+    description2: 'Please click below to see My Portfolio, learn more About Me, or feel free to Contact Me.',
+    your_img_url:"https://i.imgur.com/s2Jek8X.png",
+    // your_img_url: "https://i.imgur.com/SDrBhQ5.png",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A Little Bit About Me",
+    aboutme: `My name is Kevin Tu, and I'm a Full-Stack Software Engineer currently enrolled in the Flatiron School. As a self-starter, I've grown more and more invested in changing the world through tech. I find myself excited to learn more to supplement my time here. In my time with Flatiron and professional experiences, I have become proficient in JavaScript, React, Ruby, and Rails, and outside of the program, I am pushing myself to become fluent in Python and Flask to continue to become a value add to any company I would have the fortune to be a part of. `,
+    aboutme2:`Before becoming a software engineer, I was a product manager at JPM, overseeing cross-functional app development and enhancements for internal apps following the AGILE methodology. I routinely led live demos of changes for stakeholders, managed QA testing, and interfaced with internal clients and the dev team to write stories and manage sprint timelines. During this experience, I got to see firsthand just how hard the dev team worked and talking to them piqued my interest. `,
+    aboutme3:`Since then, I've been combining my experience as a product manager and intensive self-study to transform myself into a full-stack software engineer. I enjoy creating intelligent solutions with a focus on understanding user experience, user retention, and rapid growth.`
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -147,9 +151,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/disposable-kiwi",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/kevin-tu-305805131/",
     twitter: "https://twitter.com",
     youtube: "https://youtube.com",
     twitch: "https://twitch.com",
