@@ -7,6 +7,10 @@
     -webkit-column-gap: 4rem;
 }
 
+.subtitle-portfolio{
+    font-size:20px;
+}
+
 .po_item {
     display: inline-block;
     width: 100%;
