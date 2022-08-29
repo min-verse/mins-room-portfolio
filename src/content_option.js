@@ -24,42 +24,59 @@ const dataabout = {
     aboutme3:`Since then, I've been combining my experience as a product manager and intensive self-study to transform myself into a full-stack software engineer. I enjoy creating intelligent solutions with a focus on understanding user experience, user retention, and rapid growth.`
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Product Owner",
+        where: "JPMorgan Chase & Co., Global Investment Bank",
+        desc:"Integrated new technologies, automation, and dashboards with existing web apps, ensuring rapid and consistent enhancements",
+        date: "2021-2022",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Product Manager",
+        where: "JPMorgan Chase & Co., Global Investment Bank",
+        desc:"Managed app development according to the AGILE method, wrote stories, schedule sprints, and provided rigorous QA testing for UI/UX",
+        date: "2020-2021",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
+        jobtitle: "Xfinity Mobile Marketing Strategist",
+        where: "Comcast NBCUniversal",
+        desc:"Analyzed and aggregated market trends and leveraged my research to help open over 65+ new retail locations for Comcast in this fast-paced, start-up environment",
         date: "2019",
     },
 ];
 
 const skills = [{
+        name: "React.js",
+        value: 100,
+    },
+    {
+        name: "JavaScript",
+        value: 100,
+    },
+    {
+        name: "Rails",
+        value: 95,
+    },
+    {
+        name: "Ruby",
+        value: 95,
+    },
+    {
         name: "Python",
-        value: 90,
+        value: 92,
+    },
+    
+    {
+        name: "Express.js",
+        value: 100,
+    },
+    
+    {
+        name: "Node.js",
+        value: 100,
     },
     {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
+        name: "Next.js",
         value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+    }
 ];
 
 const services = [{

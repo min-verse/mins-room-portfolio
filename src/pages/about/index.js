@@ -39,7 +39,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Projects Timeline</h3>
+            <h3 className="color_sec py-4">Relevant Professional History</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -49,6 +49,7 @@ export const About = () => {
                     <tr key={i}>
                       <th scope="row">{data.jobtitle}</th>
                       <td>{data.where}</td>
+                      <td>{data.desc}</td>
                       <td>{data.date}</td>
                     </tr>
                   );

@@ -35,9 +35,9 @@
 
 .stick_follow_icon ul li {
     display: block;
-    font-size: 12px;
+    font-size: 20px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     transition: all .3s;
 }
 
