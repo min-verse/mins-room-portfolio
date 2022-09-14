@@ -109,9 +109,9 @@ const dataportfolio = [{
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/XX4fPQC.gif",
+        desctiption: "Beyond Lunar - A website that aggregates news about space discoveries from across the world. Includes an original moon animation I made for the logo as well as a live Twitter feed of some of the world's biggest space agencies.",
+        link: "https://github.com/disposable-kiwi/Beyond-Lunar",
     },
     {
         img: "https://picsum.photos/400/300/?grayscale",
@@ -168,10 +168,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/disposable-kiwi",
+    github: "https://github.com/min-verse",
     facebook: "https://facebook.com",
     linkedin: "https://www.linkedin.com/in/kevin-tu-305805131/",
-    twitter: "https://twitter.com",
+    twitter: "https://twitter.com/min_verse",
     youtube: "https://youtube.com",
     twitch: "https://twitch.com",
 };
