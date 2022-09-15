@@ -61,7 +61,7 @@ const skills = [{
     },
     {
         name: "Python",
-        value: 92,
+        value: 50,
     },
     
     {
@@ -74,8 +74,8 @@ const skills = [{
         value: 100,
     },
     {
-        name: "Next.js",
-        value: 80,
+        name: "Django",
+        value: 50,
     }
 ];
 
@@ -94,35 +94,35 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/6HWZuaR.gif",
+        desctiption: "Lumbini - A private, secure diary app built on the PERN Stack",
+        link: "https://github.com/min-verse/lumbini-app",
     },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    // {
+    //     img: "https://picsum.photos/400/800/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
     {
         img: "https://i.imgur.com/XX4fPQC.gif",
         desctiption: "Beyond Lunar - A website that aggregates news about space discoveries from across the world. Includes an original moon animation I made for the logo as well as a live Twitter feed of some of the world's biggest space agencies.",
         link: "https://github.com/disposable-kiwi/Beyond-Lunar",
     },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    // {
+    //     img: "https://picsum.photos/400/300/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/700/?grayscale",
+    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
 
     // {
     //     img: "https://picsum.photos/400/600/?grayscale",
@@ -157,9 +157,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "ktu2020@hotmail.com",
+    // YOUR_FONE: "(555)123-4567",
+    description: "Please contact me for any business inquiries. Glad to be of service!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
