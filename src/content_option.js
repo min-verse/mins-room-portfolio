@@ -95,14 +95,14 @@ const services = [{
 
 const dataportfolio = [{
         img: "https://i.imgur.com/6HWZuaR.gif",
-        desctiption: "Lumbini - A private, secure diary app built on the PERN Stack",
+        desctiption: "Lumbini - A private, secure \n diary app built on a React, Express.js, and SQLite stack with JWToken Authentication",
         link: "https://github.com/min-verse/lumbini-app",
     },
-    // {
-    //     img: "https://picsum.photos/400/800/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
+    {
+        img: "https://i.imgur.com/KchxOCv.gif",
+        desctiption: "The 11th Power - A Clone of the Hit Game 2048 built entirely in React, updates continuing to be made",
+        link: "https://github.com/min-verse/the-11th-power",
+    },
     // {
     //     img: "https://picsum.photos/400/?grayscale",
     //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
