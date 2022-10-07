@@ -94,6 +94,10 @@ const services = [{
 ];
 
 const dataportfolio = [{
+    img: "https://i.imgur.com/Bx0Ftkl.gif",
+        desctiption: "Natural One - DnD Partymaker and tracker built with TypeScript for static typing and Ruby for the backend, leveraging React.js and Sinatra API with Redux for state management",
+        link: "https://github.com/min-verse/natural-one-team-builder",
+    },{
         img: "https://i.imgur.com/6HWZuaR.gif",
         desctiption: "Lumbini - A private, secure \n diary app built on a React, Express.js, and SQLite stack with JWToken Authentication",
         link: "https://github.com/min-verse/lumbini-app",
