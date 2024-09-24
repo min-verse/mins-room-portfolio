@@ -1,40 +1,17 @@
-### description
+### Min's Room
 
-A simple Portfolio template for developer/designers built with React. 
-
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
-
-![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)
-
-
-### Features
-
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
-
-
+Repo for portfolio site
 
 ### Setup
-
-Get the code.
-
- <pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
+<a href="https://github.com/ubaimutl/react-portfolio.git">Template</a>
  
-Install required dependencies
+#### Install Required Dependencies
 
 <pre>yarn install</pre>
 
-modify pages content in  `src/content_option.js`.
-
-statrt the server
+Page Content in  `src/content_option.js`.
 
 <pre>yarn start</pre>
 
-### Thanks
-If you like this portfolio template don't forget give it a ⭐ 
- 
 
 
