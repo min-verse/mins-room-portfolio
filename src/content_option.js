@@ -20,7 +20,7 @@ const introdata = {
 
 const dataabout = {
     title: "Overview",
-    aboutme: `My name is Kevin Tu, and I'm a Full-Stack Software Engineer currently enrolled in the Flatiron School. As a self-starter, I've grown more and more invested in changing the world through tech. I find myself excited to learn more to supplement my time here. In my time with Flatiron and professional experiences, I have become proficient in JavaScript, React, Ruby, and Rails, and outside of the program, I am pushing myself to become fluent in Python and Flask to continue to become a value add to any company I would have the fortune to be a part of. `,
+    aboutme: `My name is Kevin Tu, and I'm a Software Engineer with professional Frontend, Backend, and Fullstack experience. As someone who likes taking the initiative, I've grown more and more invested in changing the world through tech. I take pride in standing up applications that are scalable, maintainable, and testable.`,
     aboutme2:`Before becoming a software engineer, I was a product manager at JPM, overseeing cross-functional app development and enhancements for internal apps following the AGILE methodology. I routinely led live demos of changes for stakeholders, managed QA testing, and interfaced with internal clients and the dev team to write stories and manage sprint timelines. During this experience, I got to see firsthand just how hard the dev team worked and talking to them piqued my interest. `,
     aboutme3:`Since then, I've been combining my experience as a product manager and intensive self-study to transform myself into a full-stack software engineer. I enjoy creating intelligent solutions with a focus on understanding user experience, user retention, and rapid growth.`
 };
