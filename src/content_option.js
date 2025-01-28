@@ -7,39 +7,74 @@ const meta = {
 const introdata = {
     title: "I'm Kevin (Min) Tu!",
     animated: {
-        first: "I'm a Full-Stack Developer.",
-        second: "Also a Digital Illustrator!",
-        third: "Please feel free to reach out.",
+        first: "Experienced Software Engineer",
+        second: "Also a Digital Illustrator",
+        third: "Please Feel Free to Reach Out",
     },
-    description: `I'm a Full-Stack Software Engineer, specializing in React, JavaScript, Ruby, and Ruby on Rails, with a strong emphasis on learning Python and Flask.  I enjoy creating intelligent solutions with a focus on understanding user experience, user retention, and rapid growth.`,
-    description2: 'Please click below to see My Portfolio, learn more About Me, or feel free to Contact Me.',
+    description: `I'm a Software Engineer with years of professional experience specializing in architecting backend systems and building fullstack microservices from the ground up using the following technologies:`,
+    description2:`Python / Django, Ruby on Rails, Node.js / Express.js, React.js / TypeScript, Next.js, and Remix.run using both SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) databases.`,
+    description3: 'Additional Technologies: Docker, Jenkins, Kubernetes, AWS (Amazon Web Services), Argo CD',
+    description4: 'Please click below to see my Experiences, learn more About Me, or feel free to Contact Me by using the links on the side panel',
     your_img_url:"https://i.imgur.com/s2Jek8X.png",
-    // your_img_url: "https://i.imgur.com/SDrBhQ5.png",
 };
 
 const dataabout = {
-    title: "A Little Bit About Me",
+    title: "Overview",
     aboutme: `My name is Kevin Tu, and I'm a Full-Stack Software Engineer currently enrolled in the Flatiron School. As a self-starter, I've grown more and more invested in changing the world through tech. I find myself excited to learn more to supplement my time here. In my time with Flatiron and professional experiences, I have become proficient in JavaScript, React, Ruby, and Rails, and outside of the program, I am pushing myself to become fluent in Python and Flask to continue to become a value add to any company I would have the fortune to be a part of. `,
     aboutme2:`Before becoming a software engineer, I was a product manager at JPM, overseeing cross-functional app development and enhancements for internal apps following the AGILE methodology. I routinely led live demos of changes for stakeholders, managed QA testing, and interfaced with internal clients and the dev team to write stories and manage sprint timelines. During this experience, I got to see firsthand just how hard the dev team worked and talking to them piqued my interest. `,
     aboutme3:`Since then, I've been combining my experience as a product manager and intensive self-study to transform myself into a full-stack software engineer. I enjoy creating intelligent solutions with a focus on understanding user experience, user retention, and rapid growth.`
 };
-const worktimeline = [{
-        jobtitle: "Product Owner",
-        where: "JPMorgan Chase & Co., Global Investment Bank",
+
+const worktimeline = [
+    {
+        jobtitle: "Senior Backend Engineer",
+        where: "Boll & Branch",
+        desc:"Integrated new technologies, automation, and dashboards with existing web apps, ensuring rapid and consistent enhancements",
+        date: "2023-Present",
+        skills: [
+            'abc',
+            'def'
+        ]
+    },
+    {
+        jobtitle: "Fullstack Software Engineer",
+        where: "Flatiron School",
+        desc:"Integrated new technologies, automation, and dashboards with existing web apps, ensuring rapid and consistent enhancements",
+        date: "2022-2023",
+        skills: [
+            'xyz',
+            'ssb'
+        ]
+    },
+    {
+        jobtitle: "Applications Developer",
+        where: "JPMorgan Chase & Co.",
         desc:"Integrated new technologies, automation, and dashboards with existing web apps, ensuring rapid and consistent enhancements",
         date: "2021-2022",
+        skills: [
+            'place',
+            'holder'
+        ]
     },
     {
-        jobtitle: "Product Manager",
-        where: "JPMorgan Chase & Co., Global Investment Bank",
+        jobtitle: "Software Development Product Manager",
+        where: "JPMorgan Chase & Co.",
         desc:"Managed app development according to the AGILE method, wrote stories, schedule sprints, and provided rigorous QA testing for UI/UX",
         date: "2020-2021",
+        skills: [
+            'managing',
+            'product'
+        ]
     },
     {
-        jobtitle: "Xfinity Mobile Marketing Strategist",
+        jobtitle: "Xfinity Mobile Marketing Analyst",
         where: "Comcast NBCUniversal",
         desc:"Analyzed and aggregated market trends and leveraged my research to help open over 65+ new retail locations for Comcast in this fast-paced, start-up environment",
         date: "2019",
+        skills: [
+            'marketing',
+            'analytics'
+        ]
     },
 ];
 
@@ -53,15 +88,15 @@ const skills = [{
     },
     {
         name: "Rails",
-        value: 95,
+        value: 100,
     },
     {
         name: "Ruby",
-        value: 95,
+        value: 100,
     },
     {
         name: "Python",
-        value: 50,
+        value: 100,
     },
     
     {
@@ -75,7 +110,15 @@ const skills = [{
     },
     {
         name: "Django",
-        value: 50,
+        value: 100,
+    },
+    {
+        name: "AWS - Amazon Web Services",
+        value: 100,
+    },
+    {
+        name: "Microservices",
+        value: 100,
     }
 ];
 
@@ -107,65 +150,16 @@ const dataportfolio = [{
         desctiption: "The 11th Power - A Clone of the Hit Game 2048 built entirely in React, updates continuing to be made",
         link: "https://github.com/min-verse/the-11th-power",
     },
-    // {
-    //     img: "https://picsum.photos/400/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
     {
         img: "https://i.imgur.com/XX4fPQC.gif",
         desctiption: "Beyond Lunar - A website that aggregates news about space discoveries from across the world. Includes an original moon animation I made for the logo as well as a live Twitter feed of some of the world's biggest space agencies.",
         link: "https://github.com/disposable-kiwi/Beyond-Lunar",
-    },
-    // {
-    //     img: "https://picsum.photos/400/300/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/700/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-
-    // {
-    //     img: "https://picsum.photos/400/600/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/300/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/550/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
-    // {
-    //     img: "https://picsum.photos/400/700/?grayscale",
-    //     desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
+    }
 ];
 
 const contactConfig = {
     YOUR_EMAIL: "ktu2020@hotmail.com",
-    // YOUR_FONE: "(555)123-4567",
     description: "Please contact me for any business inquiries. Glad to be of service!",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",
@@ -179,6 +173,7 @@ const socialprofils = {
     youtube: "https://youtube.com",
     twitch: "https://twitch.com",
 };
+
 export {
     meta,
     dataabout,
