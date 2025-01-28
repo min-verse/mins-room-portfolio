@@ -22,7 +22,8 @@ export const About = () => {
         <Row className="mb-5 mt-3">
           <Col lg="8">
             <h1 className="display-4 mb-4">About me</h1>
-            <p className="subtitle-portfolio">Including Skills and Services </p>
+            {/* TODO: Add an underline to these links */}
+            <p className="subtitle-portfolio">Including <a href="#skills-section">Skills</a> and <a href="#services-section">Services</a> </p>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -38,11 +39,12 @@ export const About = () => {
             </div>
           </Col>
         </Row>
-        <Row className="sec_sp">
+        <Row className="sec_sp" id="skills-section">
           <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
           <Col lg="7">
+            {/* TODO: Split these into two columns? */}
             {skills.map((data, i) => {
               return (
                 <div key={i}>
@@ -62,7 +64,7 @@ export const About = () => {
             })}
           </Col>
         </Row>
-        <Row className="sec_sp">
+        <Row className="sec_sp" id="services-section">
           <Col lang="5">
             <h3 className="color_sec py-4">Services</h3>
           </Col>

@@ -20,9 +20,9 @@ const introdata = {
 
 const dataabout = {
     title: "Overview",
-    aboutme: `My name is Kevin Tu, and I'm a Software Engineer with professional Frontend, Backend, and Fullstack experience. As someone who likes taking the initiative, I've grown more and more invested in changing the world through tech. I take pride in standing up applications that are scalable, maintainable, and testable.`,
-    aboutme2:`Before becoming a software engineer, I was a product manager at JPM, overseeing cross-functional app development and enhancements for internal apps following the AGILE methodology. I routinely led live demos of changes for stakeholders, managed QA testing, and interfaced with internal clients and the dev team to write stories and manage sprint timelines. During this experience, I got to see firsthand just how hard the dev team worked and talking to them piqued my interest. `,
-    aboutme3:`Since then, I've been combining my experience as a product manager and intensive self-study to transform myself into a full-stack software engineer. I enjoy creating intelligent solutions with a focus on understanding user experience, user retention, and rapid growth.`
+    aboutme: `My name is Kevin Tu, and I'm a Software Engineer with professional Frontend, Backend, and Fullstack experience with some contributions to configuring CI/CD Pipelines and DevOps. As someone who likes taking the initiative, I've grown more and more invested in changing the world through tech. I take pride in standing up applications that are scalable, maintainable, and testable.`,
+    aboutme2:`I'm enthusiastic about jumping onto new interesting projects, creating third-party API integrations, contributing to building out new features, and leading architecting on microservices to make business logic and applications more responsive and scalable. In addition to taking charge of contructing backend systems and flow along with optimizing parts of the DevOps / CI/CD pipeline, I always am enthusiastic about building out responsive user-friendly UIs to maximize UX and SEO (Next.js, Remix.run).`,
+    aboutme3:`Since then, I continue to combine my experiences across the stack to become a competent and robust Software Engineer who can jump onto any project with passion and drive. I enjoy creating intelligent solutions with a focus on understanding a tight feedback loop, end user experience, and scaling for rapid growth.`
 };
 
 const worktimeline = [
@@ -31,9 +31,11 @@ const worktimeline = [
         where: "Boll & Branch",
         desc:"Integrated new technologies, automation, and dashboards with existing web apps, ensuring rapid and consistent enhancements",
         date: "2023-Present",
-        skills: [
-            'abc',
-            'def'
+        skills: ['Ruby on Rails', 'Python', 'Node.js', 'Express.js', 'MySQL', 'Docker', 'Kubernetes', 'Jenkins', 'AWS', 'React.js', 'Remix.run', 'JavaScript', 'TypeScript', 'Redis', 'Sidekiq'],
+        bullets: [
+            'Lead transformation of legacy Rails monolith codebase by identifying areas of inefficiency, eliminating 80% of deprecated code, and proactively building out and spinning up scalable, resilient microservices to protect key business logic flows and integrations',
+            'Develop comprehensive fullstack solutions for a dozens of cross-functional needs such as responsive frontend analytics dashboards, warehouse and shipping status integrations and dashboard, and a small pub/sub microservice for key e-commerce storefront events',
+            'Implement seamless integration with multiple critical third-party APIs for e-commerce and payments including Stripe, Loop, Shopify, various warehousing systems to increase fulfillment efficiency by over 40%'
         ]
     },
     {
@@ -41,9 +43,10 @@ const worktimeline = [
         where: "Flatiron School",
         desc:"Integrated new technologies, automation, and dashboards with existing web apps, ensuring rapid and consistent enhancements",
         date: "2022-2023",
-        skills: [
-            'xyz',
-            'ssb'
+        skills: ['Next.js', 'React.js', 'JavaScript', 'TypeScript', 'Ruby on Rails', 'Django'],
+        bullets: [
+            'Designed and wrote out a litany of React.js Components for the website',
+            'Converted core main website pages from React.js to Next.js to optimize SEO'
         ]
     },
     {
@@ -51,8 +54,9 @@ const worktimeline = [
         where: "JPMorgan Chase & Co.",
         desc:"Integrated new technologies, automation, and dashboards with existing web apps, ensuring rapid and consistent enhancements",
         date: "2021-2022",
-        skills: [
-            'place',
+        skills: ['Django', 'Python', 'Celery', 'Tableau', 'Alteryx'],
+        bullets: [
+            'Convert outdated pipeline feeding Investment Bank data on ECM, DCM, and M&A deals into an automated pipeline using Tableau / Alteryx for more accurate real-time reporting to inform critical global investment bank deals',
             'holder'
         ]
     },
@@ -61,7 +65,7 @@ const worktimeline = [
         where: "JPMorgan Chase & Co.",
         desc:"Managed app development according to the AGILE method, wrote stories, schedule sprints, and provided rigorous QA testing for UI/UX",
         date: "2020-2021",
-        skills: [
+        bullets: [
             'managing',
             'product'
         ]
@@ -71,14 +75,35 @@ const worktimeline = [
         where: "Comcast NBCUniversal",
         desc:"Analyzed and aggregated market trends and leveraged my research to help open over 65+ new retail locations for Comcast in this fast-paced, start-up environment",
         date: "2019",
-        skills: [
+        bullets: [
             'marketing',
             'analytics'
         ]
     },
 ];
 
-const skills = [{
+const skills = [
+    {
+        name: "Python",
+        value: 100,
+    },
+    {
+        name: "Django",
+        value: 100,
+    },
+    {
+        name: "Ruby",
+        value: 100,
+    },
+    {
+        name: "Ruby on Rails",
+        value: 100,
+    },
+    {
+        name: "TypeScript",
+        value: 100,
+    },
+    {
         name: "React.js",
         value: 100,
     },
@@ -87,18 +112,13 @@ const skills = [{
         value: 100,
     },
     {
-        name: "Rails",
+        name: "Next.js",
         value: 100,
     },
     {
-        name: "Ruby",
+        name: "Remix.run",
         value: 100,
     },
-    {
-        name: "Python",
-        value: 100,
-    },
-    
     {
         name: "Express.js",
         value: 100,
@@ -114,6 +134,18 @@ const skills = [{
     },
     {
         name: "AWS - Amazon Web Services",
+        value: 100,
+    },
+    {
+        name: "MySQL",
+        value: 100,
+    },
+    {
+        name: "PostgreSQL",
+        value: 100,
+    },
+    {
+        name: "MongoDB",
         value: 100,
     },
     {

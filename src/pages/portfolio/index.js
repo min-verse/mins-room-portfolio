@@ -50,12 +50,19 @@ export const Portfolio = () => {
                             <th scope="row">{data.jobtitle}</th>
                             <td>{data.where}</td>
                             <td>{data.desc}
+                              { 
+                                data.skills &&
+                                <>
+                                  <hr className="t_border my-4 ml-0 text-left" />
+                                  <p><em>Technologies:</em> {data.skills.join(', ')}</p>
+                                </>
+                              }
                               <hr className="t_border my-4 ml-0 text-left" />
                               {
-                                data.skills && 
+                                data.bullets && 
                                   <ul style={{listStyle: 'inside'}}>
                                     {
-                                      data.skills.map((item, j)=>{
+                                      data.bullets.map((item, j)=>{
                                         return (
                                           <li key={j}>{item}</li>
                                         )
