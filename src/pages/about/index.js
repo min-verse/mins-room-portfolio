@@ -7,6 +7,7 @@ import {
   meta,
   worktimeline,
   skills,
+  skills2,
   services,
 } from "../../content_option";
 
@@ -23,7 +24,7 @@ export const About = () => {
           <Col lg="8">
             <h1 className="display-4 mb-4">About me</h1>
             {/* TODO: Add an underline to these links */}
-            <p className="subtitle-portfolio">Including <a href="#skills-section">Skills</a> and <a href="#services-section">Services</a> </p>
+            <p className="subtitle-portfolio">Including <u><a href="#skills-section">Skills</a></u> and <u><a href="#services-section">Services</a></u></p>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -45,23 +46,46 @@ export const About = () => {
           </Col>
           <Col lg="7">
             {/* TODO: Split these into two columns? */}
-            {skills.map((data, i) => {
-              return (
-                <div key={i}>
-                  <h3 className="progress-title">{data.name}</h3>
-                  <div className="progress">
-                    <div
-                      className="progress-bar"
-                      style={{
-                        width: `${data.value}%`,
-                      }}
-                    >
-                      <div className="progress-value">{data.value}%</div>
+            <Row>
+              <Col lg="6" className="mb-5">
+                {skills.map((data, i) => {
+                  return (
+                    <div key={i}>
+                      <h3 className="progress-title">{data.name}</h3>
+                      <div className="progress">
+                        <div
+                          className="progress-bar"
+                          style={{
+                            width: `${data.value}%`,
+                          }}
+                        >
+                          <div className="progress-value">{data.value}%</div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              );
-            })}
+                  );
+                })}
+              </Col>
+              <Col lg="6" className="mb-5">
+                {skills2.map((data, i) => {
+                  return (
+                    <div key={i}>
+                      <h3 className="progress-title">{data.name}</h3>
+                      <div className="progress">
+                        <div
+                          className="progress-bar"
+                          style={{
+                            width: `${data.value}%`,
+                          }}
+                        >
+                          <div className="progress-value">{data.value}%</div>
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </Col>
+            </Row>
           </Col>
         </Row>
         <Row className="sec_sp" id="services-section">

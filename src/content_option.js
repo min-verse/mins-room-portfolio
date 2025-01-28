@@ -15,7 +15,8 @@ const introdata = {
     description2:`Python / Django, Ruby on Rails, Node.js / Express.js, React.js / TypeScript, Next.js, and Remix.run using both SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) databases.`,
     description3: 'Additional Technologies: Docker, Jenkins, Kubernetes, AWS (Amazon Web Services), Argo CD',
     description4: 'Please click below to see my Experiences, learn more About Me, or feel free to Contact Me by using the links on the side panel',
-    your_img_url:"https://i.imgur.com/s2Jek8X.png",
+    main_img_url:"https://i.imgur.com/s2Jek8X.png",
+    contact_url_arr: ['https://i.imgur.com/SMcOE1J.jpeg', 'https://i.imgur.com/mdQMUse.jpeg']
 };
 
 const dataabout = {
@@ -88,11 +89,41 @@ const skills = [
         value: 100,
     },
     {
-        name: "Django",
+        name: "Ruby",
         value: 100,
     },
     {
-        name: "Ruby",
+        name: "JavaScript",
+        value: 100,
+    },
+    {
+        name: "Node.js",
+        value: 100,
+    },
+    {
+        name: "React.js",
+        value: 100,
+    },{
+        name: "Docker",
+        value: 100,
+    },
+    {
+        name: "Kubernetes",
+        value: 100,
+    },
+    {
+        name: "Jenkins",
+        value: 100,
+    },
+    {
+        name: "MongoDB",
+        value: 100,
+    }
+];
+
+const skills2 = [
+    {
+        name: "Django",
         value: 100,
     },
     {
@@ -104,32 +135,11 @@ const skills = [
         value: 100,
     },
     {
-        name: "React.js",
-        value: 100,
-    },
-    {
-        name: "JavaScript",
+        name: "Express.js",
         value: 100,
     },
     {
         name: "Next.js",
-        value: 100,
-    },
-    {
-        name: "Remix.run",
-        value: 100,
-    },
-    {
-        name: "Express.js",
-        value: 100,
-    },
-    
-    {
-        name: "Node.js",
-        value: 100,
-    },
-    {
-        name: "Django",
         value: 100,
     },
     {
@@ -142,10 +152,6 @@ const skills = [
     },
     {
         name: "PostgreSQL",
-        value: 100,
-    },
-    {
-        name: "MongoDB",
         value: 100,
     },
     {
@@ -212,6 +218,7 @@ export {
     dataportfolio,
     worktimeline,
     skills,
+    skills2,
     services,
     introdata,
     contactConfig,
