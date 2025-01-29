@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import * as emailjs from "emailjs-com";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { introdata, meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
+import Carousel from "react-bootstrap/Carousel";
 
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
@@ -16,53 +16,6 @@ export const ContactUs = () => {
     alertmessage: "",
     variant: "",
   });
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setFormdata({ loading: true });
-
-    const templateParams = {
-      from_name: formData.email,
-      user_name: formData.name,
-      to_name: contactConfig.YOUR_EMAIL,
-      message: formData.message,
-    };
-
-    emailjs
-      .send(
-        contactConfig.YOUR_SERVICE_ID,
-        contactConfig.YOUR_TEMPLATE_ID,
-        templateParams,
-        contactConfig.YOUR_USER_ID
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setFormdata({
-            loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
-            variant: "success",
-            show: true,
-          });
-        },
-        (error) => {
-          console.log(error.text);
-          setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
-            variant: "danger",
-            show: true,
-          });
-          document.getElementsByClassName("co_alert")[0].scrollIntoView();
-        }
-      );
-  };
-
-  const handleChange = (e) => {
-    setFormdata({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
 
   return (
     <HelmetProvider>
@@ -98,10 +51,20 @@ export const ContactUs = () => {
             <span><em>All art on this website created by me: @blendie22</em></span>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
-            <img
-              width={500}
-              src={introdata.contact_url_arr[Math.floor(Math.random() * introdata.contact_url_arr.length)]}
-            />
+            <Carousel interval={5000}>
+              {introdata.contact_url_arr.map((imageData, index)=>{
+                return (
+                  <Carousel.Item>
+                    <img
+                      key={index}
+                      width={500}
+                      src={imageData}
+                      alt={`Contact Me Illustration #${index}`}
+                    />
+                  </Carousel.Item>
+                )
+              })}
+            </Carousel>
           </Col>
         </Row>
       </Container>
