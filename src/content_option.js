@@ -28,10 +28,10 @@ const dataabout = {
 
 const worktimeline = [
     {
-        jobtitle: "Senior Backend Engineer",
+        jobtitle: "Senior Software Engineer",
         where: "Boll & Branch",
         logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Boll_and_Branch_Logo_Wordmark.jpg/1200px-Boll_and_Branch_Logo_Wordmark.jpg',
-        desc:"As a Software Engineer on the Backend team, I mainly oversaw large change management with warehousing systems, modularizing existing integrations, creating scalable microsrevice solutions, and integrating 3rd party APIs related to e-commerce such as Loop, Stripe, Shopify, and more.",
+        desc:"As a Software Engineer at Boll & Branch, I mainly oversaw large change management with warehousing systems, modularizing existing integrations, creating scalable microsrevice solutions, and integrating 3rd party APIs related to e-commerce such as Loop, Stripe, Shopify, and more.",
         date: "2023-Present",
         skills: ['Ruby on Rails', 'Python', 'Node.js', 'Express.js', 'MySQL', 'Docker', 'Kubernetes', 'Jenkins', 'AWS', 'React.js', 'Remix.run', 'JavaScript', 'TypeScript', 'Redis', 'Sidekiq'],
         bullets: [
